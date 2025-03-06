@@ -14,7 +14,7 @@ from tkinter.constants import SINGLE
 #2_вариант
 import httpx
 from jsonschema import validate
-from Core.contracts import USER_DATA_SHEME
+from Core.Contracts_get_user import USER_DATA_SHEME
 
 BASE_URL = 'https://reqres.in/'
 LiST_USERS = 'api/users?page=2'
