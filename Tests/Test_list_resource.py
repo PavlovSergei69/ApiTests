@@ -1,6 +1,6 @@
 import httpx
 from jsonschema import validate
-from Core.Contracts_HW_1 import LIST_RESOURCE_SCHEME
+from Core.Contracts_list_user import LIST_RESOURCE_SCHEME
 
 BASE_URL = 'https://reqres.in/'
 LIST_RESOURCE = 'api/unknown'
